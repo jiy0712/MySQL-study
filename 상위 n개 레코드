@@ -1,0 +1,7 @@
+프로그래머스 59405번 ( MySQL 1단계 문제 )
+상위 n개 레코드
+
+SELECT NAME
+from ANIMAL_INS
+order by DATETIME ASC # DATETIME 오름차순 정렬
+limit 1; # 결과를 1(하나)만 가져와
