@@ -1,0 +1,6 @@
+프로그래머스 59036번 ( MySQL 1단계 문제 )
+아픈 동물 찾기
+
+SELECT ANIMAL_ID, NAME  # ANIMAL_ID, NAME 만 보여줘
+from ANIMAL_INS  # ANIMAL_INS 테이블에서
+where INTAKE_CONDITION = 'Sick'; # 조건 : INTAKE_CONDITION에서 'Sick'인 것만
