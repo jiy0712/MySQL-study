@@ -1,0 +1,6 @@
+프로그래머스 59037번 ( MySQL 1단계 문제 )
+어린 동물 찾기
+
+SELECT ANIMAL_ID, NAME
+from ANIMAL_INS
+where INTAKE_CONDITION != 'Aged'; # 조건 : INTAKE_CONDITION이 'Aged'가 아닌 것만 출력하기
