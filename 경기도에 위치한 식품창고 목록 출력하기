@@ -1,0 +1,8 @@
+프로그래머스 131114번 ( MySQL 1단계 문제 )
+경기도에 위치한 식품창고 목록 출력하기
+
+SELECT WAREHOUSE_ID, WAREHOUSE_NAME, ADDRESS, coalesce(FREEZER_YN, 'N') as FREEZER_YN
+// coalesce(FREEZER_YN, 'N') as FREEZER_YN. coalesce는 NULL값을 처리하는 함수로 FREEZER_YN에 있는 NULL값을 'N'으로 바꾼다라는 뜻. as FREEZER_YN
+from FOOD_WAREHOUSE
+where ADDRESS like '경기도%' // like '경기도%'. 경기도로 시작하는 것만 (경기도인 곳만)
+order by WAREHOUSE_ID asc;
