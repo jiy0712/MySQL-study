@@ -1,0 +1,5 @@
+프로그래머스 131697번 ( MySQL 1단계 문제 )
+가장 비싼 상품 구하기
+
+SELECT max(PRICE) as MAX_PRICE //PRICE가 가장 큰것을 뽑아 MAX_PRICE에 넣기
+FROM PRODUCT;
