@@ -1,0 +1,6 @@
+프로그래머스 59039번 ( MySQL 1단계 문제 )
+이름이 없는 동물의 아이디
+
+SELECT ANIMAL_ID
+from ANIMAL_INS
+where NAME is NULL; // NULL값이 있는지를 찾을 땐 is NULL.
