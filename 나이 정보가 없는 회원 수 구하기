@@ -1,0 +1,7 @@
+프로그래머스 131528번 ( MySQL 1단계 문제 )
+나이 정보가 없는 회원 수 구하기
+
+SELECT count(*) as USERS
+// count(*) : 조건에 맞는 모든 행의 개수를 구함. as USERS : USERS에 반환
+from USER_INFO
+where AGE is NULL; //age에 null이 있는지 확인하는 조건문
